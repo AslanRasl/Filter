@@ -14,9 +14,9 @@ arr.filter((item)=>{
 }
 )
 console.log('');
-var arrr = ['Tojimatov','Homrakulov','Azimova','Nozimova','Sobirjonov','Rahimova','Ergashev','Usupov','Urumbaeva','Muslimova','Toshboev']
+var arr2 = ['Tojimatov','Homrakulov','Azimova','Nozimova','Sobirjonov','Rahimova','Ergashev','Usupov','Urumbaeva','Muslimova','Toshboev']
 console.log('familya');
-arrr.filter((item)=>{
+arr2.filter((item)=>{
     if (item[item.length - 1] == 'a' ) {
         console.log(item);
     }
