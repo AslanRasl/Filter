@@ -1,4 +1,4 @@
-var arr = [37, 12, 65, 5, 91, 24, 78, 49, 3, 68, 30, 87, 56, 19, 42, 71, 10, 93, 76, 50, 14, 60, 88, 26, 69, 7, 96, 33, 82, 47, 75, 21, 54, 98, 44, 16, 81, 38, 23, 58, 95, 11, 72, 6, 31, 74, 29, 64, 2, 85]
+let arr = [37, 12, 65, 5, 91, 24, 78, 49, 3, 68, 30, 87, 56, 19, 42, 71, 10, 93, 76, 50, 14, 60, 88, 26, 69, 7, 96, 33, 82, 47, 75, 21, 54, 98, 44, 16, 81, 38, 23, 58, 95, 11, 72, 6, 31, 74, 29, 64, 2, 85]
 console.log('20-dan katta 50-gacha');
 arr.filter((item)=>{
     if(item > 20 && item < 50){
@@ -14,7 +14,7 @@ arr.filter((item)=>{
 }
 )
 console.log('');
-var arr2 = ['Tojimatov','Homrakulov','Azimova','Nozimova','Sobirjonov','Rahimova','Ergashev','Usupov','Urumbaeva','Muslimova','Toshboev']
+let arr2 = ['Tojimatov','Homrakulov','Azimova','Nozimova','Sobirjonov','Rahimova','Ergashev','Usupov','Urumbaeva','Muslimova','Toshboev']
 console.log('familya');
 arr2.filter((item)=>{
     if (item[item.length - 1] == 'a' ) {
